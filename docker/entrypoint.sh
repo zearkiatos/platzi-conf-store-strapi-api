@@ -1,4 +1,4 @@
-if [ $(echo "$ENVIRONMENT")=="develop" ]
+if [ $(echo "$NODE_ENV")=="develop" ]
 then
     npm run develop
 else
