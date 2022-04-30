@@ -24,6 +24,6 @@ RUN npm link strapi-helper-plugin
 
 EXPOSE 1337
 
- CMD ["sh", "./docker/entrypoint.sh"]
+CMD ["sh", "./docker/entrypoint.sh"]
 
 

@@ -1,8 +1,3 @@
-if [ $(echo "$NODE_ENV")=="develop" ]
-then
-    npm run develop
-else
-    npm run start
-fi
+npm run start
 
 echo "`date`: 🤖 All ready boss!"
